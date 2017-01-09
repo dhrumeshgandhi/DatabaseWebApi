@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="DCGDatabaseApi" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\dhrumesh\\documents\\visual\ studio\ 2015\\Projects\\DatabaseApi\\DatabaseApi\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\dhrumesh\\documents\\visual\ studio\ 2015\\Projects\\DatabaseApi\\DatabaseApi\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DatabaseApiContext-Web.config Connection String" description="" value="Server=tcp:dhrumeshgandhi.database.windows.net,1433;Initial Catalog=DataBase;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\dhrumesh\\documents\\visual\ studio\ 2015\\Projects\\DatabaseApi\\DatabaseApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DatabaseApiContext']/@connectionString" />
+  </parameter>
+</parameters>

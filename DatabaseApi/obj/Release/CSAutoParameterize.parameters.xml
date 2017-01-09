@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DatabaseApiContext-Web.config Connection String" description="DatabaseApiContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=DatabaseApiContext-20170109225446; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|DatabaseApiContext-20170109225446.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\dhrumesh\\documents\\visual\ studio\ 2015\\Projects\\DatabaseApi\\DatabaseApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DatabaseApiContext']/@connectionString" />
+  </parameter>
+</parameters>
